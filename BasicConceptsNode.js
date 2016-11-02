@@ -24,7 +24,13 @@ console.log(19 ==="19"); //false(Integer===String)//compares value+type
 var anuj={
     printFirstName: function(){
         console.log("My name is Anuj");
-        console.log(this===anuj);
+        console.log(this === anuj);//true
     }
 };
 anuj.printFirstName();
+//default function is global
+function  doSomethingWorthless(){
+    console.log("This Function is worthless");
+    console.log(this === global);//true
+}
+doSomethingWorthless();
