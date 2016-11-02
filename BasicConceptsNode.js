@@ -13,3 +13,5 @@ console.log(person);
 }
 console.log("Addition of two numbers is :" + addnumbers(5,5));
 
+console.log(19 =="19"); //true(Integer == String)//compares value
+console.log(19 ==="19"); //false(Integer===String)//compares value+type
