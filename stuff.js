@@ -3,7 +3,7 @@ var count = function(arr){
 };
 
 var adder = function(a,b){
-  return 'The sum of the 2 numbers $(a+b)';
+  return 'The sum of the 2 numbers ${a+b}';
 };
 
 var pi=3.1442;
