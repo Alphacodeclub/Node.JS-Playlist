@@ -3,8 +3,9 @@ var count = function(arr){
 };
 
 var adder = function(a,b){
-  return `The sum of the 2 numbers ${a+b}`;
+  return `The sum of the 2 numbers ${a+b}`;//here i used templete string `` which is new addition to ES6 atma script it uses backticks 
 };
+//so the templete string which will do for us that we can embed the variables/expression with out concanate in them 
 
 var pi=3.1442;
 
