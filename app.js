@@ -25,7 +25,35 @@ var timer = setInterval(function(){
 },2000);*/
 
 //to get directory where we are working
-console.log('Directory name ' +__dirname);
+//console.log('Directory name ' +__dirname);
 
 //to get file name
-console.log('file name ' +__filename);
+//console.log('file name ' +__filename);
+
+//function expresstion
+//normal function stmt
+/*function sayHi(){
+  console.log('Hi user');
+}
+sayHi();*/
+
+//function expresstion
+/*var sayBye = function(){
+  console.log('Bye User');
+};
+sayBye();*/
+
+/*function callFun(fun){
+  fun();
+}
+callFun(sayBye);*/
+
+//modules & require() method
+/*var count = require('./count');
+//if you put this module outside the module scope this won't work
+console.log(count(['Messi','Neymar','Suarez']));//will throw error*/
+
+//Module Patterns
+var stuff = require('./stuff');
+//if you put this module outside the module scope this won't work
+console.log(stuff.count(['Messi','Neymar','Suarez']));
